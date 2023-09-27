@@ -1,0 +1,59 @@
+n_gamma: 	 2.1562698916125496
+n_s: 	 [4]
+******************************************************
+***          SENSE Simulation Parameters           ***
+******************************************************
+1  ICs randomly generated from input parameters
+------------------------------------------------------
+e-beam:  En0        =   1500000099.5121195  eV
+e-beam:  gamma_0    =   2935.4207436399215
+e-beam:  sig_g      =   1e-06
+e-beam:  eps_x_n    =   0.0  m rad
+e-beam:  eps_y_n    =   0.0  m rad
+e-beam:  eps_x      =   0.0  m rad
+e-beam:  eps_y      =   0.0  m rad
+e-beam:  sigma_e_x  =   2.1e-13  m
+e-beam:  sigma_e_y  =   2.1e-13  m
+e-beam:  sigma_e_px =   0.0  rad
+e-beam:  sigma_e_py =   0.0  rad
+------------------------------------------------------
+p-beam:  lambda0    =   0.1  m
+p-beam:  p_0        =   8.01622651116082e-19  kg m/s
+p-beam:  sig        =   10.0
+p-beam:  sigma_p_x  =   15.0  m
+p-beam:  sigma_p_y  =   15.0  m
+p-beam:  a0         =   5.0
+p-beam:  iTypeEnv   =   5
+p-beam:  modType    =   11
+p-beam:  n_gamma    =   2.1562698916125496
+p-beam:  X          =   2.8485491335964875e-07
+p-beam:  angle      =   0.0  rad
+------------------------------------------------------
+p-beam:  no chirp
+------------------------------------------------------
+aperture:  circular 
+aperture:  L_aper   =   60.0  m
+aperture:  R_aper   =   6.81e-08  m
+aperture:  theta_a  =   1.135e-09  rad
+------------------------------------------------------
+------------------------------------------------------
+simulation:  w_min  =   1e-07
+simulation:  w_max  =   2.0
+simulation:  Nout   =   64000
+simulation:  Ntot   =   650000
+simulation:  Npart  =   1
+simulation:  N_MC   =   1
+------------------------------------------------------
+e-beam mean E_0     =   1500.0000995121195  MeV (computed)
+scattered mean E'   =   0.42733656897279426  keV
+******************************************************
+Finished sampling electron distribution...
+Finished computing parameters for each electron...
+Now executing spectrum computation on  12  CPUs
+Radiated energy at the spectral peak:  854.6597834698119
+Mean radiated energy                :  511.35511656445624
+A =  1.0918525577901322e-24
+
+real	48m24.886s
+user	48m23.990s
+sys	0m2.993s
